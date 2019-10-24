@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26c7a4253ccb99206a6faa6f0faa2e19",
+    "revision": "204fc868c061a85cb13207638ef950ba",
     "url": "/rutas/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rutas/static/js/2.440df999.chunk.js"
   },
   {
-    "revision": "1cb6022e861453f4cc79",
-    "url": "/rutas/static/js/main.a6d4e8fc.chunk.js"
+    "revision": "88b955b49ad0031bed0a",
+    "url": "/rutas/static/js/main.af68fc87.chunk.js"
   },
   {
     "revision": "e4ae36b89341f70555bb",
