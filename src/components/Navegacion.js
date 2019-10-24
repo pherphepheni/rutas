@@ -8,14 +8,14 @@ const Navegacion = (props) =>{
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <Link to={'/'} className="nav-link">Inicio<span className="sr-only"></span></Link>
+                            <Link to={'/rutas/'} className="nav-link">Inicio<span className="sr-only"></span></Link>
                            
                         </li>
                         <li className="nav-item">
-                        <Link to={'/productos'} className="nav-link">Productos<span className="sr-only"></span></Link>
+                        <Link to={'./productos'} className="nav-link">Productos<span className="sr-only"></span></Link>
                         </li>
                         <li className="nav-item">
-                        <Link to={'/nosotros'} className="nav-link">Nosotros<span className="sr-only"></span></Link>
+                        <Link to={'./nosotros'} className="nav-link">Nosotros<span className="sr-only"></span></Link>
                         </li>
                     </ul>
                         <Buscador
