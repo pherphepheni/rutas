@@ -48,13 +48,13 @@ class Router extends Component{
                 <Navegacion
                 busqueda = {this.busqueda}/>
             <Switch>
-            <Route exact path="/rutas" render ={()=>(
+            <Route exact path="./rutas" render ={()=>(
                     <Productos
                     productos = {verProductos}
                    
                     />
                 )}/>
-                <Route exact path="/productos" render ={()=>(
+                <Route exact path="./productos" render ={()=>(
                     <Productos
                     productos = {verProductos}
                     />
@@ -68,7 +68,7 @@ class Router extends Component{
                            />
                        )
                     }}/>
-                <Route exact path="/nosotros" component = {Nosotros}/>
+                <Route exact path="./nosotros" component = {Nosotros}/>
 
             </Switch>
 
