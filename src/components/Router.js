@@ -48,7 +48,7 @@ class Router extends Component{
                 <Navegacion
                 busqueda = {this.busqueda}/>
             <Switch>
-            <Route exact path="/" render ={()=>(
+            <Route exact path="/rutas" render ={()=>(
                     <Productos
                     productos = {verProductos}
                    
