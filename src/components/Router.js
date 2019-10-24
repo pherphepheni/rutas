@@ -59,8 +59,8 @@ class Router extends Component{
                     productos = {verProductos}
                     />
                 )}/>
-                    <Route exact path="/productos/:id" render={(props)=>{
-                       const id = props.location.pathname.replace('/productos/', '');
+                    <Route exact path="/rutas/productos/:id" render={(props)=>{
+                       const id = props.location.pathname.replace('/rutas/productos/', '');
                        console.log(id)
                        return(
                            <SingleProducto
