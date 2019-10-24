@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
             <div className="card-body text-center">
             <h4 className="card-subtitle">{nombre}</h4>
           
-           <Link to={`/productos/${id}`}>
+           <Link to={`/rutas/productos/${id}`}>
              <img className="m-auto" src={`./img/${imagen}.png`} alt={nombre}></img>
             <p>precio ${precio}</p>      
            </Link>   
