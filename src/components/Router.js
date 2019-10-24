@@ -54,7 +54,7 @@ class Router extends Component{
                    
                     />
                 )}/>
-                <Route exact path="/productos" render ={()=>(
+                <Route exact path="/rutas/productos" render ={()=>(
                     <Productos
                     productos = {verProductos}
                     />
@@ -68,7 +68,7 @@ class Router extends Component{
                            />
                        )
                     }}/>
-                <Route exact path="/nosotros" component = {Nosotros}/>
+                <Route exact path="/rutas/nosotros" component = {Nosotros}/>
 
             </Switch>
 
