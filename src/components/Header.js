@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 const Header = () =>{
     return(
         <header className="text-center jumbotron">
-            <Link to={'./'}>
+            <Link to={'./rutas'}>
             <img src="./img/logo.png" alt={''}/>
             </Link>     
         </header>
