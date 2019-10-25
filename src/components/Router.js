@@ -48,19 +48,19 @@ class Router extends Component{
                 <Navegacion
                 busqueda = {this.busqueda}/>
             <Switch>
-            <Route exact path="/" render ={()=>(
+            <Route exact path="/rutas" render ={()=>(
                     <Productos
                     productos = {verProductos}
                    
                     />
                 )}/>
-                <Route exact path="/productos" render ={()=>(
+                <Route exact path="/rutas/productos" render ={()=>(
                     <Productos
                     productos = {verProductos}
                     />
                 )}/>
-                    <Route exact path="/productos/:id" render={(props)=>{
-                       const id = props.location.pathname.replace('/productos/', '');
+                    <Route exact path="/rutas/productos/:id" render={(props)=>{
+                       const id = props.location.pathname.replace('/rutas/productos/', '');
                        console.log(id)
                        return(
                            <SingleProducto
