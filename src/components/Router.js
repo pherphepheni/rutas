@@ -48,18 +48,18 @@ class Router extends Component{
                 <Navegacion
                 busqueda = {this.busqueda}/>
             <Switch>
-            <Route exact path="/rutas" render ={()=>(
+            <Route exact path="/" render ={()=>(
                     <Productos
                     productos = {verProductos}
                    
                     />
                 )}/>
-                <Route exact path="/rutas/productos" render ={()=>(
+                <Route exact path="/productos" render ={()=>(
                     <Productos
                     productos = {verProductos}
                     />
                 )}/>
-                    <Route exact path="/rutas/productos/:id" render={(props)=>{
+                    <Route exact path="/productos/:id" render={(props)=>{
                        const id = props.location.pathname.replace('/productos/', '');
                        console.log(id)
                        return(
@@ -68,7 +68,7 @@ class Router extends Component{
                            />
                        )
                     }}/>
-                <Route exact path="/rutas/nosotros" component = {Nosotros}/>
+                <Route exact path="/nosotros" component = {Nosotros}/>
 
             </Switch>
 

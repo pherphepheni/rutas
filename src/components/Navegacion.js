@@ -12,10 +12,10 @@ const Navegacion = (props) =>{
                            
                         </li>
                         <li className="nav-item">
-                        <Link to={'./productos'} className="nav-link">Productos<span className="sr-only"></span></Link>
+                        <Link to={'/rutas/productos'} className="nav-link">Productos<span className="sr-only"></span></Link>
                         </li>
                         <li className="nav-item">
-                        <Link to={'./nosotros'} className="nav-link">Nosotros<span className="sr-only"></span></Link>
+                        <Link to={'/rutas/nosotros'} className="nav-link">Nosotros<span className="sr-only"></span></Link>
                         </li>
                     </ul>
                         <Buscador
